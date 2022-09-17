@@ -1,0 +1,26 @@
+print("********TUPLE*****")
+tlist=["Hi","I","am","Anjana"]
+print(tlist)
+#Append
+tlist.append("Krishnan")
+print(tlist)
+
+#Insert
+tlist.insert(0,"Goodmorning")
+print(tlist)
+
+
+#Delete
+del tlist[1]
+print(tlist)
+
+#Indexing
+print(tlist[3])
+print(tlist[4])
+
+#Update
+tlist[0]="Hello"
+print(tlist)
+
+
+
